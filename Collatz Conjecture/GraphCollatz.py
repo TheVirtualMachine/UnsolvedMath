@@ -1,5 +1,5 @@
 START = 1
-END = 50
+END = 20
 
 collatzMap = set()
 
