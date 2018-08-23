@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "Starting tree generation."
-time python3 NormalCollatz.py > NormalCollatz.gv
+time python3 NormalCollatz.py > NormalCollatz.dot
 echo "Finished generating tree."
 echo "-------------------------"
 echo "Starting graphing."
-time dot -Tpdf NormalCollatz.gv -o NormalCollatz.pdf
+time dot -Tpdf NormalCollatz.dot -o NormalCollatz.pdf
 echo "Finished graphing tree."
