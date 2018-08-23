@@ -1,6 +1,0 @@
-#!/bin/bash
-
-python3 GraphCollatz.py > Collatz.gv
-echo "Finished generating tree."
-dot -Tpdf Collatz.gv -o Collatz.pdf
-echo "Finished graphing tree."
